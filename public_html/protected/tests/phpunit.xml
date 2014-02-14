@@ -6,7 +6,13 @@
 		stopOnFailure="false">
 
 	<selenium>
-		<browser name="Internet Explorer" browser="*iexplore" />
-		<browser name="Firefox" browser="*firefox" />
+		<browser name="Iceweasel" browser="*iceweasel" />
 	</selenium>
+
+	<testsuites>
+        	<testsuite name="Application Test Suite">
+            		<directory>./protected/tests/unit/</directory>
+        	</testsuite>
+   	</testsuites>
+
 </phpunit>

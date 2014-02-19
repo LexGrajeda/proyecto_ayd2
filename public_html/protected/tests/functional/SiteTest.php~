@@ -1,7 +1,5 @@
 <?php
 
-include "../WebTestCase.php";
-
 class SiteTest extends WebTestCase
 {
 	public function testIndex()
